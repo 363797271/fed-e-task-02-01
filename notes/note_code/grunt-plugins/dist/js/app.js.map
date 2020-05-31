@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/js/app.js"],"names":["arr","arr2"],"mappings":";;AAAA;AAEA,IAAMA,GAAG,GAAG,CAAC,CAAD,EAAG,CAAH,EAAK,CAAL,EAAO,CAAP,CAAZ;AAEA,IAAMC,IAAI,aAAOD,GAAP,CAAV","sourcesContent":["// ES6新特性\r\n\r\nconst arr = [1,2,3,4]\r\n\r\nconst arr2 = [...arr]"],"file":"app.js"}
