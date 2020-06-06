@@ -1,0 +1,54 @@
+{
+  "name": "zyd-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "zyd-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/363797271/zyd-pages#readme",
+  "bugs": {
+    "url": "https://github.com/363797271/zyd-pages/issues"
+  },
+  "license": "MIT",
+  "author": "zyd <363797271>",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "main": "lib/index.js",
+  "bin": "bin/zyd-pages.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/363797271/zyd-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.1"
+  },
+  "devDependencies": {
+    "standard": "^13.1.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
